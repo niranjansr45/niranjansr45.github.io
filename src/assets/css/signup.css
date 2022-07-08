@@ -1,0 +1,137 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.parentCont{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    display: flex;
+
+    }
+    .imgCont{
+        height: inherit;
+        background-color:#F4FFF7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .imgGirl{
+            height:50%;
+            width: auto;
+        }
+        
+  .signUpInfo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   .createAccountHead{
+    padding-top: 30px;
+    color: #333333;
+    font-size: 26px;
+    font-weight: 700;
+    }
+    .formCont{
+        width: 85%;
+    }
+    .signUpForm > label{
+        font-size: 12px;
+        font-weight: bold;  
+    }
+    .input-group > .inputTypes{
+        margin-bottom: 12px;
+        background-color: #F8F8F8;
+        border: 1px solid #D8D8D8;
+        font-size: 12px; 
+        height: 32px;
+    }
+    
+    .submitBtn{
+     margin-top: 4px;
+     margin-bottom: 10px;
+     background-color: #128C7E;
+     border: none;
+     border-radius: 5px;
+     font-size: 16px;
+     font-weight: bold;
+     color: rgb(255, 255, 255);
+     height: 40px;
+     width:100%;
+    }
+    .submitBtn:hover{
+        background-color: #25ac9c;
+       }
+    .loginLink{
+     text-align: end;
+     font-size: 14px;
+    }
+    
+    .orDiv{
+     height: 25px;
+     background-size: cover;
+    
+    }
+    .signUpWith{
+        font-size: 16px;
+        font-weight: bold;
+    }
+   
+    .signUpLinks {
+     display: flex;
+     margin-top: 0px;
+    }
+    .sepDivLinks{
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+       
+    }
+
+    @media only screen and (max-width: 600px) {
+        .imgCont{
+            height: 380px;
+          
+        }
+       
+      } 
+
+     @media only screen and (max-width: 700px) {
+        .imgCont{
+       
+            height: 180px;
+          
+        }
+        .imgGirl{
+            height:90%;
+            width: auto;
+        }
+        .loginLink{
+            text-align:center;
+           }
+        .signUpLinks {
+            display: flex;
+            margin-top: -10px;
+           }
+        .signUpWith{
+           text-align: center;
+        }
+        .signUpLinks{
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+        }
+        
+      } 
+
+    
+

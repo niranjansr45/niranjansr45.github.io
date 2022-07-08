@@ -1,0 +1,25 @@
+
+  {
+    "development": {
+      "username": "saeed",
+      "password": "1122",
+      "database": "whatsapp_analyzer",
+      "host": "127.0.0.1",
+      "dialect": "postgres"
+    },
+    "test": {
+      "username": "saeed",
+      "password": "1122",
+      "database": "whatsapp_analyzer",
+      "host": "127.0.0.1",
+      "dialect": "postgres"
+    },
+    "production": {
+      "username": "saeed",
+      "password": "1122",
+      "database": "whatsapp_analyzer",
+      "host": "127.0.0.1",
+      "dialect": "postgres"
+    }
+  }
+  
